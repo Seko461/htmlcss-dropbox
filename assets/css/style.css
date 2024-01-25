@@ -24,6 +24,20 @@
     --drop-yellow: #ffd830;
 }
 
+.debug .main_menu {
+    border: 1px solid black;
+}
+
+.debug .jumbo {
+
+    border: 1px solid black;
+}
+
+.debug .big_container {
+    border: 1px solid black;
+}
+
+/* utilities */
 .d-flex {
     display: flex;
 }
@@ -34,20 +48,30 @@ ul {
 
 li {
     list-style: none;
-
 }
 
 a {
     text-decoration: none;
     color: var(--drop-gray);
-
 }
 
 button {
     border: none;
     background-color: #0061ff;
     color: #ffffff;
+}
 
+.big_container {
+    width: 70%;
+}
+
+h1 {
+    font-size: 4rem;
+
+}
+
+p {
+    font-size: .75rem;
 }
 
 /* #region header */
@@ -61,7 +85,6 @@ nav {
     max-width: 1900px;
     padding: .75rem;
     justify-content: space-between;
-    border: 1px solid black;
 }
 
 
@@ -80,11 +103,50 @@ button.menu {
     padding: .5rem 1rem;
 }
 
-
 /* #endregion header */
 
 /* #region main*/
+.jumbo {
+    padding-top: 4rem;
+    background-color: var(--drop-lighterblue);
+    /* justify-content: center; */
 
+
+}
+
+.jumbo_background {
+    height: 33rem;
+    background-color: var(--drop-lighterblue);
+    justify-content: center;
+}
+
+.jumbo_top {
+    margin-bottom: 2rem;
+}
+
+.jumbo_left {
+    width: 30%;
+}
+
+.jumbo_right {
+    width: 70%;
+}
+
+.jumbo_right.img {
+    max-width: fit-content;
+}
+
+.jumbo_left>button {
+    padding: .5rem.75rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.icon>i {
+    margin-top: 5rem;
+    font-size: 2.25rem;
+
+}
 
 /* #endregion main */
 
