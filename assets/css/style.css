@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 :root {
@@ -21,7 +24,61 @@
     --drop-yellow: #ffd830;
 }
 
+.d-flex {
+    display: flex;
+}
+
+ul {
+    gap: 1rem;
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--drop-gray);
+
+}
+
+button {
+    border: none;
+    background-color: #0061ff;
+    color: #ffffff;
+
+}
+
 /* #region header */
+nav {
+    justify-content: center;
+    font-size: .75rem;
+}
+
+.main_menu {
+    width: 100vw;
+    max-width: 1900px;
+    padding: .75rem;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+
+
+.left,
+.right {
+    align-items: center;
+    gap: 1rem;
+}
+
+.right {
+    flex-direction: row-reverse;
+}
+
+button.menu {
+    padding: .5rem 1rem;
+}
 
 
 /* #endregion header */
