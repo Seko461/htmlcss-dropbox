@@ -100,18 +100,20 @@ nav {
 }
 
 button.menu {
-    padding: .5rem 1rem;
+    padding: .25rem .75rem;
 }
 
 /* #endregion header */
 
 /* #region main*/
+
+/* #region jumbo */
 .jumbo {
+    max-width: 1900px;
+    margin: auto;
     padding-top: 4rem;
     background-color: var(--drop-lighterblue);
     /* justify-content: center; */
-
-
 }
 
 .jumbo_background {
@@ -145,8 +147,9 @@ button.menu {
 .icon>i {
     margin-top: 5rem;
     font-size: 2.25rem;
-
 }
+
+/* #endregion jumbo */
 
 /* #endregion main */
 
