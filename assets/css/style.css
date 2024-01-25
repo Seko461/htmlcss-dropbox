@@ -47,6 +47,13 @@
     height: 100%;
 }
 
+.debug .cost_section {
+    border: 1px solid black;
+    height: 800px;
+}
+
+
+
 /* utilities */
 .d-flex {
     display: flex;
@@ -181,22 +188,46 @@ button.menu {
     padding-top: 8rem;
 }
 
-.business_plan_bottom p {
-    margin-left: .25rem;
+
+.business_plan_bottom span {
+
     margin-right: 2rem;
+    font-size: .75rem;
+
+}
+
+.option {
+    align-items: center;
+    gap: .25rem;
 }
 
 .business_options {
     padding-top: 3rem;
-    /* gap: 1rem; */
+    gap: 2rem;
 }
 
-/* input[type=radio]::before {
-
-    border: 4px solid var(--drop--blue);
-} */
 
 /* #endregion business plan */
+
+/* #region cost section */
+.cost_section {
+    justify-content: center;
+    max-width: 1900px;
+}
+
+.col-30 {
+    width: calc(90%/3);
+    height: 100%;
+    border: 1px solid var(--drop-gray);
+
+}
+
+.cost_section>.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* #endregion cost section */
 /* #endregion main */
 
 /* #region footer*/
