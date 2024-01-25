@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --drop-black: #000000;
+    --drop-gray: #b6b6b6;
+    --drop-lightgray: #f5f5f5;
+    --drop-white: #ffffff;
+    --drop-lighterblue: #b4d0e7;
+    --drop-lightblue: #0093ce;
+    --drop--blue: #0061ff;
+    --drop-darkblue: #0d2481;
+    --drop-lightred: #ff1c1c;
+    --drop-red: #d5001f;
+    --drop-darkred: #61082b;
+    --drop-lightgreen: #d1e9cd;
+    --drop-green: #a2d39b;
+    --drop-yellow: #ffd830;
+}
+
+/* #region header */
+
+
+/* #endregion header */
+
+/* #region main*/
+
+
+/* #endregion main */
+
+/* #region footer*/
+
+
+/* #endregion footer */
