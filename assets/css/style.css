@@ -259,14 +259,20 @@ button.menu {
 .column_header {
     justify-content: center;
     gap: .25rem;
-    padding: .25rem;
+    padding: .5rem 0;
+    font-size: .75rem;
+    align-items: center;
     border-bottom: 1px solid gray;
     margin-bottom: .25rem;
 }
 
+
 .column_body {
     padding: 1rem;
     font-size: .75rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+
 }
 
 .price {
@@ -278,6 +284,9 @@ button.menu {
     padding: 2rem 0;
     flex-direction: column;
     gap: .75rem;
+    height: 200px;
+    /* border: 1px solid black; */
+
 }
 
 .column_icon,
