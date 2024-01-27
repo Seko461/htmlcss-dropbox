@@ -66,6 +66,10 @@
 
 }
 
+.debug .sponsors {
+
+    border: 1px solid black;
+}
 
 /* utilities */
 .d-flex {
@@ -502,6 +506,94 @@ button.menu {
 
 /* #endregion banner */
 /* #endregion main */
+
+/* #region sponsors */
+.sponsors_left,
+.sponsors_center,
+.sponsors_right {
+    width: calc(100%/3);
+    aspect-ratio: 1;
+    border: 1px solid black;
+
+}
+
+.sponsors_center {
+    padding: 2rem;
+    background-color: var(--drop-lightgray);
+}
+
+.sponsors_center>.line {
+    width: 15%;
+}
+
+.sponsors_center>img {
+    width: 40%;
+    margin-bottom: 1.5rem;
+}
+
+.sponsors_center>p {
+    padding-top: 1.8rem;
+    font-size: .6rem;
+
+}
+
+.p_sign {
+    padding-top: 2rem;
+    font-size: .60rem;
+}
+
+.top_modules,
+.bottom_modules {
+    height: 50%;
+}
+
+.sponsor_module {
+    border: 1px solid black;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+}
+
+.sponsor_module>img {
+    width: 50%;
+    align-self: center;
+    filter: invert();
+
+}
+
+#design_logo {
+    background-color: var(--drop-green);
+}
+
+#ariziona_logo {
+    background-color: var(--drop-darkred);
+}
+
+#florida_logo {
+    background-color: var(--drop-lightblue);
+}
+
+#topps_logo {
+    background-color: var(--drop-lightred);
+}
+
+#world_bicycle_relief_logo {
+    background-color: var(--drop-red);
+}
+
+#hearts_logo {
+    background-color: var(--drop-lighterblue);
+}
+
+#lonely_planet_logo {
+    background-color: var(--drop-darkblue);
+}
+
+#clear_channel_logo {
+    background-color: var(--drop-yellow);
+}
+
+/* #endregion sponsors */
 
 /* #region footer*/
 
