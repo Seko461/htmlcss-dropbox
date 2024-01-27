@@ -352,6 +352,7 @@ button.menu {
     line-height: 1rem;
     padding: .5rem 0;
     border-bottom: 1px solid gray;
+    font-size: .75rem;
 }
 
 .c_t_a_box {
@@ -384,6 +385,50 @@ button.menu {
 }
 
 /* #endregion call to action 1 */
+/* #region partners */
+.partners {
+    padding: 6rem 0;
+    /* height: 600px; */
+    justify-content: center;
+}
+
+.partners_left {
+    width: calc((100%/3) *2);
+    /* height: 100%; */
+
+}
+
+
+.partners_left img {
+    width: 100%;
+}
+
+.partners_right {
+    width: calc(100%/3);
+    padding: 2.5rem 0;
+}
+
+.partners_box {
+    padding-left: 2.5rem;
+    padding-right: 1rem;
+}
+
+.box_header {
+    margin-bottom: .5rem;
+}
+
+.partners_box>button {
+    padding: .5rem 1rem;
+    font-size: .75rem;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    margin-top: 1.5rem;
+}
+
+
+
+/* #endregion partners */
 /* #endregion main */
 
 /* #region footer*/
