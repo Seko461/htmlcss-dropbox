@@ -239,6 +239,7 @@ button.menu {
     gap: .25rem;
     padding: .25rem;
     border: 1px solid gray;
+    margin-bottom: .25rem;
 }
 
 .column_body {
@@ -264,7 +265,8 @@ button.menu {
 
 .user,
 .cloud,
-.functions {
+.functions,
+.points {
     gap: .25rem
 }
 
@@ -285,7 +287,38 @@ button.menu {
 
 .column_link {
     line-height: 2rem;
+    padding: 1rem 0;
+    margin-bottom: .5rem;
 }
+
+.line {
+    width: calc(100% / 5);
+    height: 1px;
+    background-color: var(--drop-gray);
+}
+
+.column_bottom {
+    padding: 0 1rem;
+    font-size: .75rem;
+}
+
+.bottom_header {
+    padding: 1.5rem 0;
+
+}
+
+.points {
+    flex-direction: column;
+}
+
+.points_row {
+    gap: .25rem;
+}
+
+.points i {
+    color: #0061ff;
+}
+
 
 
 
