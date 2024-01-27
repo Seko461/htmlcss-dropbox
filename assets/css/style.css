@@ -469,7 +469,7 @@ button.menu {
 .row>.card {
     width: calc(100%/3);
 
-    border: 1px solid black;
+
 }
 
 .card img {
@@ -637,7 +637,32 @@ button.menu {
 }
 
 /* #endregion sponsors */
+/* #region call to action 2 */
+.call_to_action_2 {
+    padding: 5rem 0;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--drop-lighterblue);
+}
 
+.call_to_action_2>.container {
+    justify-content: space-between;
+}
+
+.c_t_a_left {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--drop-darkred);
+}
+
+.c_t_a_right button {
+    background-color: white;
+    color: black;
+    font-size: .75rem;
+    padding: .5rem 2.5rem;
+}
+
+/* #endregion call to action 2 */
 /* #region footer*/
 
 
