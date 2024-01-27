@@ -699,5 +699,54 @@ button.menu {
 
 /* #region footer*/
 
+.site_footer {
+    background-color: #000000;
+
+    justify-content: center;
+}
+
+footer>.big_container {
+
+    height: 100%;
+    margin-top: 3rem;
+}
+
+.footer_top {
+    /* height: 300px; */
+}
+
+.footer_column {
+
+    width: calc(100%/5);
+    padding-bottom: 5rem;
+}
+
+.column_title {
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+.footer_column>ul>li {
+    color: white;
+    font-size: .75rem;
+    line-height: 1.5rem;
+}
+
+footer>.big_container>.line {
+    color: white;
+    width: 10%;
+    height: 2px;
+
+}
+
+.language_box {
+    color: white;
+    align-items: center;
+    gap: .5rem;
+    line-height: 6rem;
+    font-size: .75rem;
+}
 
 /* #endregion footer */
