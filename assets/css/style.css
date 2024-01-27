@@ -56,6 +56,10 @@
     height: 300px;
 }
 
+.debug .skills {
+
+    border: 1px solid black;
+}
 
 
 /* utilities */
@@ -429,6 +433,48 @@ button.menu {
 
 
 /* #endregion partners */
+
+
+/* #region skills */
+
+.skills_title {
+    justify-content: center;
+}
+
+.skills_title>.container {
+
+    margin-bottom: 2rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.skills {
+    justify-content: center;
+}
+
+.skills>.container>.row {
+    width: 100%;
+    gap: 1rem;
+}
+
+.row>.card {
+    width: calc(100%/3);
+
+    border: 1px solid black;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card_main {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+/* #endregion skills */
+
+
 /* #endregion main */
 
 /* #region footer*/
