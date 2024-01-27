@@ -663,6 +663,40 @@ button.menu {
 }
 
 /* #endregion call to action 2 */
+
+.f_a_q {
+    justify-content: center;
+    padding-bottom: 6rem;
+}
+
+.f_a_q>.container {
+    padding-top: 3rem;
+}
+
+.f_a_q_header {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 6rem;
+    border-bottom: 1px solid gray;
+}
+
+.question_box {
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+.question_box>i {
+    align-self: center;
+    padding-right: 2rem;
+    font-size: .7rem;
+
+}
+
+.question {
+    font-size: .70rem;
+    line-height: 4rem;
+}
+
 /* #region footer*/
 
 
