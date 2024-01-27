@@ -61,6 +61,11 @@
     border: 1px solid black;
 }
 
+.debug .banner {
+    border: 1px solid black;
+
+}
+
 
 /* utilities */
 .d-flex {
@@ -474,7 +479,28 @@ button.menu {
 
 /* #endregion skills */
 
+/* #region banner */
+.banner {
+    justify-content: center;
+    padding-bottom: 6rem;
+}
 
+.banner_top {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding-top: 6rem;
+    margin-bottom: 2rem;
+}
+
+.banner_bottom a {
+    font-size: .75rem;
+    color: #0061ff;
+
+
+
+}
+
+/* #endregion banner */
 /* #endregion main */
 
 /* #region footer*/
