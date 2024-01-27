@@ -52,6 +52,10 @@
     /* height: 800px; */
 }
 
+.debug .call_to_action {
+    height: 300px;
+}
+
 
 
 /* utilities */
@@ -73,6 +77,10 @@ button {
     border: none;
     background-color: #0061ff;
     color: #ffffff;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 .big_container {
@@ -239,7 +247,7 @@ button.menu {
     justify-content: center;
     gap: .25rem;
     padding: .25rem;
-    border: 1px solid gray;
+    border-bottom: 1px solid gray;
     margin-bottom: .25rem;
 }
 
@@ -325,6 +333,57 @@ button.menu {
 
 
 /* #endregion cost section */
+
+/* #region call to action 1 */
+
+.call_to_action {
+    justify-content: center;
+    padding-top: 3rem;
+    /* border: 1px solid gray; */
+}
+
+.call_to_action>.container {
+    border: 1px solid gray;
+}
+
+.c_t_a_header {
+    justify-content: center;
+    gap: .25rem;
+    line-height: 1rem;
+    padding: .5rem 0;
+    border-bottom: 1px solid gray;
+}
+
+.c_t_a_box {
+    padding: 1.5rem;
+    justify-content: space-between;
+}
+
+.c_t_a_left {
+    padding-right: 1rem;
+}
+
+.c_t_a_top_left {
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.c_t_a_bottom_left {
+    font-size: .75rem;
+}
+
+.c_t_a_right {
+    /* border: 1px solid black; */
+    align-content: flex-end;
+    padding-left: 1rem;
+}
+
+.c_t_a_right button {
+    font-size: .75rem;
+    padding: .5rem 1.75rem;
+}
+
+/* #endregion call to action 1 */
 /* #endregion main */
 
 /* #region footer*/
