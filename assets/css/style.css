@@ -127,6 +127,12 @@ p {
 nav {
     justify-content: center;
     font-size: .75rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    z-index: 999;
 }
 
 .main_menu {
@@ -142,6 +148,16 @@ nav {
     text-decoration: none;
     color: var(--drop-gray);
 
+}
+
+.left>ul>li>a:hover,
+.right>ul>li>a:hover {
+    text-decoration: none;
+    color: #0061ff;
+}
+
+.left>a {
+    padding-top: .25rem;
 }
 
 .left,
@@ -658,13 +674,13 @@ button.menu {
     justify-content: space-between;
 }
 
-.c_t_a_left {
+.c_t_a_left_2 {
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--drop-darkred);
 }
 
-.c_t_a_right button {
+.c_t_a_right_2 button {
     background-color: white;
     color: black;
     font-size: .75rem;
@@ -741,6 +757,11 @@ footer>.big_container {
     color: white;
     font-size: .75rem;
     line-height: 1.5rem;
+}
+
+.footer_column>ul>li:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 footer>.big_container>.line {
