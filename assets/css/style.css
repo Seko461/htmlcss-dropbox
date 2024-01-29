@@ -5,6 +5,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -94,6 +99,7 @@ button {
 
 button:hover {
     cursor: pointer;
+    background-color: #0093ce;
 }
 
 .big_container {
@@ -118,7 +124,7 @@ h3 {
 }
 
 p {
-    font-size: .75rem;
+    font-size: 1rem;
 }
 
 
@@ -126,7 +132,7 @@ p {
 /* #region header */
 nav {
     justify-content: center;
-    font-size: .75rem;
+    font-size: 1rem;
     position: fixed;
     top: 0;
     left: 0;
@@ -138,7 +144,7 @@ nav {
 .main_menu {
     width: 100vw;
     max-width: 1900px;
-    padding: .75rem;
+    padding: 1rem;
     justify-content: space-between;
 }
 
@@ -146,15 +152,22 @@ nav {
 .right>ul>li>a {
 
     text-decoration: none;
-    color: var(--drop-gray);
-
+    color: black;
+    position: relative;
 }
+
+
 
 .left>ul>li>a:hover,
 .right>ul>li>a:hover {
     text-decoration: none;
     color: #0061ff;
+    border-bottom: 1px solid #0061ff;
+
+
 }
+
+
 
 .left>a {
     padding-top: .25rem;
@@ -215,9 +228,10 @@ button.menu {
     margin-bottom: 1.5rem;
 }
 
-.icon>i {
-    margin-top: 5rem;
-    font-size: 2.25rem;
+.icon>a>i {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    color: black;
 }
 
 /* #endregion jumbo */
@@ -492,6 +506,12 @@ input:checked+span:before {
     margin-top: 1.5rem;
 }
 
+.partners_box>button:hover {
+    color: #7c7c7c;
+    border: 1px solid #7c7c7c;
+
+}
+
 
 
 /* #endregion partners */
@@ -521,8 +541,17 @@ input:checked+span:before {
 
 .row>.card {
     width: calc(100%/3);
+    border-radius: 20px;
+    overflow: hidden;
 
+}
 
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px 0px black;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: .5rem;
 }
 
 .card img {
@@ -590,13 +619,13 @@ input:checked+span:before {
 
 .sponsors_center>p {
     padding-top: 1.8rem;
-    font-size: .6rem;
+    font-size: 1rem;
 
 }
 
 .p_sign {
     padding-top: 2rem;
-    font-size: .60rem;
+    font-size: .75rem;
 }
 
 .top_modules,
@@ -715,6 +744,11 @@ input:checked+span:before {
     padding: .5rem 2.5rem;
 }
 
+.c_t_a_right_2 button:hover {
+
+    color: #66c2e7
+}
+
 /* #endregion call to action 2 */
 
 .f_a_q {
@@ -736,7 +770,69 @@ input:checked+span:before {
 .question_box {
     justify-content: space-between;
     border-bottom: 1px solid gray;
+    position: relative;
 }
+
+.question_box input {
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: 0;
+}
+
+.question_box h1 {
+
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    font-size: 1rem;
+    transform: translateX(-2rem);
+    position: relative;
+
+}
+
+.question_box label::before {
+    content: "";
+    display: inline-block;
+    border: 15px solid transparent;
+    /* border-left: 20px solid white; */
+}
+
+.question_box label {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.question_box div.p {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    background-color: white;
+
+}
+
+.question_box div.p p {
+    padding: 2em;
+    transform: translateX(-2rem);
+}
+
+input:checked~h1 label::before {
+    border-left: 15px solid transparent;
+    border-top: 20px solid white;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+input:checked~h1~div.p {
+    max-height: 100px;
+}
+
 
 .question_box>i {
     align-self: center;
