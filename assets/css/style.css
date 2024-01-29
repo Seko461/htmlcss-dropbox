@@ -819,7 +819,7 @@ input:checked+span:before {
 
 .question_box div.p p {
     padding: 2em;
-    transform: translateX(-2rem);
+
 }
 
 input:checked~h1 label::before {
